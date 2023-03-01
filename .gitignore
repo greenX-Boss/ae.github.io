@@ -1,0 +1,21 @@
+# Files and directories to ignore in a portfolio website
+# built with HTML, CSS, and JavaScript
+
+# Node.js modules
+node_modules/
+
+# Compiled files
+*.min.css
+*.min.js
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
