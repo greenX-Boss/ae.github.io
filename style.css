@@ -514,6 +514,9 @@ nav .fas{
         left: 25px;
         cursor: pointer;
     }
+    .certi-list{
+        flex-basis: 100%;
+    }
     .sub-title{
         font-size: 40px;
     }
