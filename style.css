@@ -194,7 +194,7 @@ nav ul li a:hover::after{
 .tab-titles{
     display: flex;
     margin: 20px 0 50px;
-    color: rgb(86, 100, 4);
+    color: rgb(235, 235, 235);
 }
 .tab-links{
     margin-right: 50px;
@@ -230,44 +230,65 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
-/*-----------Services------*/
-#services{
-    padding: grid;
+/*-----------Certificate------*/
+#certificate{
+    padding: 50px 0;
 }
-.services-list{
+.certi-list{
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
-.services-list div{
-    background: #262626;
-    padding: 40px;
-    font-size: 13px;
-    font-weight: 300;
+.certi{
     border-radius: 10px;
-    transition: background 0.5s, transform 0.5s;
+    position: relative;
+    overflow: hidden;
+}   
+.certi img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
 }
-.services-list div i{
-    font-size: 50px;
-    margin-bottom: 30px;
-}
-.services-list div h2{
-    font-size: 30px;
+.layer{
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #02666d);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: heigh 0.5s;
+}   
+.layer h3{
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
-.services-list div a {
-    text-decoration: none;
-    color:antiquewhite;
-    font-size: 12px;
+.layer a{
     margin-top: 20px;
-    display: inline-block;
+    color: #059e9e;
+    text-decoration: none;
+    font-size: 18px;    
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
 }
-.services-list div:hover{
-    background: #059e9e;
-    transform: translateY(-10px);
+.certi:hover img{
+    transform: scale(1.5);
 }
+/*--------End---Certificate------*/
 /*---------Portfolio---*/
 #portfolio{
     padding: 50px 0;
