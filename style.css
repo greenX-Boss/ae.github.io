@@ -131,7 +131,7 @@ nav ul li a:hover::after{
     font-size: 30px; 
 }
 .header-text h1{
-    font-size: 60px; 
+    font-size: 100px; 
     margin-top: 20px;
     -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(10, 31, 34, 0.1));
 }
@@ -194,7 +194,7 @@ nav ul li a:hover::after{
 .tab-titles{
     display: flex;
     margin: 20px 0 50px;
-    color: #66cdd4;
+    color: rgb(86, 100, 4);
 }
 .tab-links{
     margin-right: 50px;
@@ -459,7 +459,7 @@ nav .fas{
 /*----Small Screen----*/
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/1675070191979.jpeg);
+        background-image: url(images/1675066239546.gif);
     }
     .header-text{
         margin-top: 100%;
