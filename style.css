@@ -99,6 +99,21 @@ nav{
     }
   }
 /*----------------Menu-------------*/
+.clock {
+    font-size: 48px;
+    font-family: monospace;
+    color: #cec8c8;
+    display: flex;
+    height: 100vh;
+    position:absolute;
+    top: 43%;
+    left: 130px;
+    padding: 10px;
+
+  }
+  .clock:hover {
+  color: #08a1a1;
+  }
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -131,7 +146,7 @@ nav ul li a:hover::after{
     font-size: 30px; 
 }
 .header-text h1{
-    font-size: 100px; 
+    font-size: 60px; 
     margin-top: 20px;
     -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(10, 31, 34, 0.1));
 }
