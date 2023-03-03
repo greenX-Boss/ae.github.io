@@ -492,6 +492,32 @@ form .btn btn2{
 nav .fas{
     display: none;
 }
+.back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  font-size: 20px;
+  color: #fff;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.back-to-top:hover {
+  color: #000;
+  background: #fff;
+}
+
+.back-to-top i {
+  margin-left: 1px;
+}
+
 /*----Small Screen----*/
 @media only screen and (max-width: 600px){
     #header{
