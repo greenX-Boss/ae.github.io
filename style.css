@@ -531,6 +531,22 @@ nav .fas{
         left: 25px;
         cursor: pointer;
     }
+    .clock{
+        font-size: 30px;
+        font-family: monospace;
+        color: #cec8c8;
+        display: flex;
+        height: 100vh;
+        position:absolute;
+        top: 55%;
+        left: 50px;
+        padding: 10px;
+    
+      }
+      .clock:hover {
+      color: #08a1a1;
+
+    }
     .certi-list{
         flex-basis: 100%;
     }
