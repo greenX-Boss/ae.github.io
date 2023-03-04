@@ -23,6 +23,11 @@ body{
  .container{
     padding: 10px 10%;
 }
+.scrollbar {
+    height: 100%; /* Set the height of the container */
+    overflow-y: scroll; /* Add vertical scrollbar */
+    padding: 10px; /* Add padding to content */
+  }
 /*----------------Menu-------------*/
 
 
@@ -98,6 +103,7 @@ nav{
       transform: rotate(360deg);
     }
   }
+  
 /*----------------Menu-------------*/
 .clock {
     font-size: 48px;
@@ -492,31 +498,28 @@ form .btn btn2{
 nav .fas{
     display: none;
 }
+
 .back-to-top {
-  display: none;
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 9999;
-  font-size: 20px;
-  color: #fff;
-  background: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
   padding: 10px;
-  border-radius: 50%;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color:#0a8f88;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 .back-to-top:hover {
-  color: #000;
-  background: #fff;
+  background-color: #07bac0;
 }
 
-.back-to-top i {
-  margin-left: 1px;
-}
+
 
 /*----Small Screen----*/
 @media only screen and (max-width: 600px){
@@ -595,5 +598,20 @@ nav .fas{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+    .back-to-top {
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        padding: 10px;
+        background-color:#0a8f88;
+        color: #000000;
+        font-size: 12px;
+        text-align: center;
+        border-radius: 5px;
+        text-decoration: none;
+        opacity: 1;
+        visibility: visible;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+      }
 
 }
